@@ -1,0 +1,216 @@
+name,type,pop2016,pop2011,province
+Montréal,Large urban,3407963,3260508,qb
+Québec,Large urban,696946,661011,qb
+Ottawa - Gatineau (Quebec part),Large urban,236329,215981,qb
+Sherbrooke,Large urban,140628,134882,qb
+Trois-Rivières,Large urban,126460,121671,qb
+Chicoutimi - Jonquière,Large urban,106666,106184,qb
+Saguenay,Large urban,106667,106185,qb
+Saint-Jean-sur-Richelieu,Medium,83053,78519,qb
+Châteauguay,Medium,70812,66204,qb
+Drummondville,Medium,66314,62199,qb
+Saint-Jérôme,Medium,65825,62368,qb
+Granby,Medium,60281,56777,qb
+Beloeil,Medium,50796,46574,qb
+Saint-Hyacinthe,Medium,48576,47306,qb
+Shawinigan,Medium,47735,49236,qb
+Joliette,Medium,42883,39219,qb
+Victoriaville,Medium,41701,38435,qb
+Salaberry-de-Valleyfield,Medium,39391,38936,qb
+Rimouski,Medium,37664,35948,qb
+Sorel,Medium,36969,36594,qb
+Alma,Small,26016,25394,qb
+Saint-Georges,Small,25703,24135,qb
+Val-d'Or,Small,23827,23640,qb
+Rouyn-Noranda,Small,23740,23433,qb
+Buckingham,Small,23589,21652,qb
+Sept-Îles,Small,23326,22837,qb
+Hudson,Small,21091,19200,qb
+Thetford Mines,Small,20756,20784,qb
+Magog,Small,20235,19106,qb
+Varennes,Small,19458,18385,qb
+Rivière-du-Loup,Small,17086,16129,qb
+Les Coteaux,Small,15847,13104,qb
+L'Assomption,Small,14113,12442,qb
+Port-Alfred-Bagotville,Small,13922,14018,qb
+Dolbeau,Small,12195,12340,qb
+Hauterive,Small,11844,12160,qb
+Cowansville,Small,11615,11376,qb
+Matane,Small,11169,11420,qb
+Lachute,Small,11163,10433,qb
+Sainte-Anne-des-Plaines,Small,10890,10179,qb
+Lavaltrie,Small,10436,9709,qb
+Sainte-Marie,Small,10401,9164,qb
+Baie-Comeau,Small,9917,10178,qb
+Calgary,Large urban,1237656,1094379,ab
+Edmonton,Large urban,1062643,935361,ab
+Red Deer,Medium,99718,89715,ab
+Lethbridge,Medium,87572,79364,ab
+Fort McMurray,Medium,66573,60555,ab
+Medicine Hat,Medium,62935,59624,ab
+Grande Prairie,Medium,62320,55236,ab
+Airdrie,Medium,61082,42844,ab
+Spruce Grove,Small,36125,27970,ab
+Leduc,Small,29556,23827,ab
+Okotoks,Small,28833,24470,ab
+Cochrane,Small,25289,17433,ab
+Fort Saskatchewan,Small,23895,18738,ab
+Lloydminster (Alberta part),Small,19645,18017,ab
+Chestermere,Small,19472,14363,ab
+Camrose,Small,18520,17057,ab
+Beaumont,Small,17396,13284,ab
+Stony Plain,Small,16271,14249,ab
+Sylvan Lake,Small,14942,12436,ab
+Brooks,Small,14436,13656,ab
+Strathmore,Small,13592,12179,ab
+High River,Small,13420,12498,ab
+Wetaskiwin,Small,12486,12221,ab
+Lacombe,Small,12442,11429,ab
+Canmore,Small,11764,10539,ab
+Vancouver,Large urban,2264823,,bc
+Victoria,Large urban,335696,,bc
+Kelowna,Large urban,151957,,bc
+Abbotsford,Large urban,121279,,bc
+White Rock,Medium,93729,,bc
+Nanaimo,Medium,92004,,bc
+Kamloops,Medium,78026,,bc
+Chilliwack,Medium,73161,,bc
+Prince George,Medium,65510,,bc
+Vernon,Medium,48073,,bc
+Courtenay,Medium,45018,,bc
+Campbell River,Medium,35138,,bc
+Penticton,Medium,33617,,bc
+Mission,Medium,33261,,bc
+Parksville,Small,23574,,bc
+Duncan,Small,23278,,bc
+Ladner,Small,22193,,bc
+Tsawwassen,Small,21588,,bc
+Port Alberni,Small,20712,,bc
+Fort St. John,Small,19897,,bc
+Cranbrook,Small,19259,,bc
+Squamish,Small,17587,,bc
+Terrace,Small,13663,,bc
+Salmon Arm,Small,12875,,bc
+Trail-Fruitvale,Small,12643,,bc
+Powell River,Small,12384,,bc
+Quesnel,Small,12064,,bc
+Aldergrove,Small,12007,,bc
+Prince Rupert,Small,11733,,bc
+Dawson Creek,Small,11574,,bc
+Nelson,Small,10664,,bc
+Ladysmith,Small,10637,,bc
+Williams Lake,Small,10508,,bc
+Sooke,Small,9269,,bc
+Gibsons,Small,9132,,bc
+Castlegar,Small,9023,,bc
+Sechelt,Small,8832,,bc
+Summerland,Small,8742,,bc
+Whistler,Small,8713,,bc
+Winnipeg,Large urban,671551,641556,mb
+Brandon,Medium,48061,41511,mb
+Steinbach,Small,13524,11066,mb
+Portage la Prairie,Small,12996,12728,mb
+Thompson,Small,12829,13446,mb
+Winkler,Small,12005,10209,mb
+Moncton,Large urban,107086,96987,nb
+Saint John,Medium,95902,91352,nb
+Fredericton,Medium,61522,57255,nb
+Bathurst,Small,17887,18154,nb
+Edmundston,Small,13660,14110,nb
+Chatham - Douglastown,Small,13307,13441,nb
+Oromocto,Small,9234,8706,nb
+St. John's,Large urban,178427,172312,nl
+Corner Brook,Small,19547,19631,nl
+Grand Falls-Windsor,Small,12046,12209,nl
+Gander,Small,10220,10229,nl
+Halifax,Large urban,297943,285480,ns
+Sydney,Medium,31597,33496,ns
+Truro,Small,23261,22376,ns
+New Glasgow,Small,20609,20876,ns
+Glace Bay,Small,19076,19968,ns
+Kentville,Small,14234,13552,ns
+Sydney Mines,Small,14135,15315,ns
+Toronto,Large urban,5429524,5144412,on
+Ottawa–Gatineau (Ontario part),Large urban,989567,945592,on
+Ottawa,Large urban,989568,945593,on
+Gatineau,Large urban,989569,945594,on
+Hamilton,Large urban,693645,671008,on
+Kitchener,Large urban,470015,446295,on
+London,Large urban,383437,365715,on
+Oshawa,Large urban,308875,290704,on
+Windsor,Large urban,287069,277970,on
+St. Catharines–Niagara,Large urban,229246,220616,on
+Barrie,Large urban,145614,140383,on
+Guelph,Large urban,132397,122457,on
+Kingston,Large urban,117660,114928,on
+Kanata,Large urban,117304,104559,on
+Milton,Large urban,101715,75880,on
+Brantford,Medium,98179,94269,on
+Thunder Bay,Medium,93952,95251,on
+Sudbury,Medium,88054,87950,on
+Peterborough,Medium,82094,79863,on
+Sarnia,Medium,72125,73044,on
+Belleville,Medium,67666,66331,on
+Sault Ste. Marie,Medium,66313,68143,on
+Welland–Pelham,Medium,62388,60540,on
+North Bay,Medium,50396,52405,on
+Cornwall,Medium,45723,45508,on
+Chatham,Medium,43550,44676,on
+Georgetown,Medium,42123,40185,on
+St. Thomas,Medium,41813,40973,on
+Woodstock,Medium,40404,37443,on
+Bowmanville,Medium,39371,35168,on
+Leamington,Medium,32991,32520,on
+Stouffville,Small,32634,24654,on
+Orillia,Medium,31128,30546,on
+Stratford,Medium,31053,30516,on
+Orangeville,Medium,30734,29007,on
+Bradford,Small,29862,23024,on
+Timmins,Medium,29331,30485,on
+Keswick–Elmhurst Beach,Small,26757,26002,on
+Bolton,Small,26378,27108,on
+Midland,Medium,24353,23791,on
+Innisfil,Small,23992,20365,on
+Owen Sound,Small,22032,22354,on
+Brockville,Small,21854,22286,on
+Fergus,Small,20767,19335,on
+Lindsay,Small,20713,20291,on
+Collingwood,Small,20102,17986,on
+Cobourg,Small,19031,18088,on
+Alliston,Small,18809,15343,on
+Wasaga Beach,Small,17808,15378,on
+Valley East,Small,17451,17343,on
+Pembroke,Small,15940,16469,on
+Tillsonburg,Small,15594,14933,on
+Port Colborne,Small,15037,15079,on
+Fort Erie,Small,14621,14490,on
+Strathroy,Small,14401,14391,on
+Simcoe,Small,13922,13383,on
+Amherstburg,Small,13910,13724,on
+Petawawa,Small,13701,12402,on
+New Hamburg,Small,13595,11709,on
+Angus–Borden CFB-BFC,Small,12640,10132,on
+Ingersoll,Small,12587,11977,on
+Port Hope,Small,12587,12177,on
+Paris,Small,12310,11722,on
+Rockland,Small,12302,10980,on
+Carleton Place,Small,11936,10829,on
+Beamsville,Small,11834,10655,on
+Uxbridge,Small,11832,11709,on
+Hawkesbury (Ontario part),Small,10055,10365,on
+Kenora,Small,10687,10970,on
+Elliot Lake,Small,10498,11162,on
+Arnprior,Small,10426,9892,on
+Elmira,Small,10161,9677,on
+Wallaceburg,Small,10098,10127,on
+Charlottetown ,Medium ,42602,38801,pe
+Summerside ,Small ,14751,14517,pe
+Saskatoon,Large urban,222035,202425,sk
+Regina,Large urban,192756,179246,sk
+Prince Albert,Medium,35552,34547,sk
+Moose Jaw,Medium,33617,32526,sk
+North Battleford,Small,17595,16539,sk
+Yorkton,Small,15795,15164,sk
+Swift Current,Small,15503,14946,sk
+Estevan,Small,11054,10084,sk
+Weyburn,Small,10484,9433,sk

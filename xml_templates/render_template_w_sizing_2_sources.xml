@@ -1,0 +1,147 @@
+<!DOCTYPE Map>
+<!-- Sample Mapnik XML template by Dane Springmeyer -->
+<Map srs="+proj=latlong +datum=WGS84" background-color="[background_color]" minimum-version="0.7.2">
+
+  <Style name="lakes-50m">
+    <Rule>
+      <PolygonSymbolizer fill="[water_color]" />
+    </Rule>
+  </Style>
+
+  <Layer name="lakes-50m" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>lakes-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir]/gis_osm_water_a_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Layer name="lakes-50m-2" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>lakes-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir_2]/gis_osm_water_a_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+  <Style name="waterways-50m">
+    <Rule>
+      <LineSymbolizer stroke="[water_color]" stroke-width="[size0.1]" />
+    </Rule>
+  </Style>
+
+  <Layer name="waterways-50m" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>waterways-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir]/gis_osm_waterways_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Layer name="waterways-50m-2" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>waterways-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir_2]/gis_osm_waterways_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Style name="water">
+    <Rule>
+      <PolygonSymbolizer fill="[water_color]" />
+    </Rule>
+  </Style>
+
+  <Layer name="water" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>water</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[water_polygons_dir]/water_polygons.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+
+  <Style name="railways-50m">
+    <Rule>
+      <LineSymbolizer stroke="[rail_color]" stroke-width="[size0.4]" />
+    </Rule>
+  </Style>
+
+  <Layer name="railways-50m" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>railways-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir]/gis_osm_railways_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Layer name="railways-50m-2" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>railways-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir_2]/gis_osm_railways_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Style name="roads-50m">
+    <Rule>
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.2]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'residential'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.3]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'living_street'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.3]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'secondary'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.45]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'secondary_link'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.45]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'primary'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.7]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'primary_link'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.7]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'motorway'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.7]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'motorway_link'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.7]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'trunk'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.7]" />
+    </Rule>
+    <Rule>
+      <Filter>[fclass] = 'trunk_link'</Filter> 
+      <LineSymbolizer stroke="[roads_color]" stroke-width="[size0.7]" />
+    </Rule>
+  </Style>
+
+  <Layer name="roads-50m" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>roads-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir]/gis_osm_roads_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+  <Layer name="roads-50m-2" srs="+proj=latlong +datum=WGS84" status="on">
+    <StyleName>roads-50m</StyleName>
+    <Datasource>
+      <Parameter name="type">shape</Parameter>
+      <Parameter name="file">[geofabrik_country_dir_2]/gis_osm_roads_free_1.shp</Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>

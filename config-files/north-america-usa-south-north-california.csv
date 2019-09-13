@@ -1,0 +1,3 @@
+geofabrik_file,country_code,country_name,state_name,state_code
+http://download.geofabrik.de/north-america/us/california/norcal-latest-free.shp.zip,us,USA,NCalifornia,ca
+http://download.geofabrik.de/north-america/us/california/socal-latest-free.shp.zip,us,USA,SCalifornia,caso

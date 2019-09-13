@@ -1,0 +1,7 @@
+version: '2'
+services:
+  mapnik:
+    image: anuras/mapnik:latest
+    volumes:
+      - ./:/workdir
+    command: cd /workdir & sh /workdir/00-run-all-states.sh config-files/bc.csv

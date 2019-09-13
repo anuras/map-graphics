@@ -1,0 +1,32 @@
+python printer.py -f lithuania_sample.xml -i downloads/cities_w_boxes.csv -w 800 -t 800 -o generated_maps/print_
+
+python template_creator.py -c lithuania-latest-free.shp -w downloads/water-polygons/water-polygons-split-4326 -i render_template.xml -o lithuania_template.xml -b #f0f0f0 -f #e34a33 -r #636363
+
+python printer.py -f lithuania_template.xml -i downloads/cities_w_boxes.csv -w 800 -t 800 -o generated_maps/new_ -c #636363
+
+
+################
+
+
+
+python template_batch_creator.py -c /home/arunas/maps/workdir/downloads/lithuania-latest-free.shp -w /home/arunas/maps/workdir/downloads/water-polygons/water-polygons-split-4326 -i xml_templates/render_template.xml -o colored_template.xml -d xml_templates/lithuania-sample/ -s color-schemas/expansion.csv
+
+python printer.py -d xml_templates/lithuania-sample/ -f colored_template.xml -s color-schemas/schemas.csv -i osmnames/lithuania-sample.csv -w 800 -t 800 -o generated_maps/lithuania_sample/
+
+Rscript --vanilla zoom-cities.r osmnames/lithuania-sample.csv 3.0 osmnames/lithuania-sample-zoom.csv
+
+python printer.py -d xml_templates/lithuania-sample/ -f colored_template.xml -s color-schemas/expansion.csv -i osmnames/lithuania-sample-zoom.csv -w 800 -t 800 -o generated_maps/lithuania_sample_zoom2/
+
+
+######################
+delete _labeled images:
+find . -name '*_labeled*' -delete
+
+######################
+sync from gs
+
+gsutil -m rsync -d gs://carto-storage/workdir/ workdir/
+gsutil -m rsync -r -d gs://carto-storage/workdir/ workdir/
+
+######################
+sudo docker run -ti -v $(pwd)/workdir/:/workdir/ anuras/mapnik bash

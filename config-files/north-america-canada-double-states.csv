@@ -1,0 +1,2 @@
+geofabrik_file,country_code,country_name,state_name,state_code,secondary_geofabrik_file,secondary_country_code,secondary_country_name,secondary_state_name,secondary_state_code,ter_geofabrik_file,ter_country_code,ter_country_name,ter_state_name,ter_state_code
+http://download.geofabrik.de/north-america/canada/ontario-latest-free.shp.zip,ca,Canada,Ontario,on,http://download.geofabrik.de/north-america/canada/quebec-latest-free.shp.zip,ca,Canada,Quebec,qb

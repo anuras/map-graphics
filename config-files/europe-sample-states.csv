@@ -1,0 +1,8 @@
+geofabrik_file,country_code,country_name,state_name,state_code
+http://download.geofabrik.de/europe/france/ile-de-france-latest-free.shp.zip,fr,France,Metropolitan France,idf
+http://download.geofabrik.de/europe/germany/berlin-latest-free.shp.zip,de,Germany,Berlin,be
+http://download.geofabrik.de/europe/poland/mazowieckie-latest-free.shp.zip,pl,Poland,Masovian Voivodeship,ma
+http://download.geofabrik.de/europe/great-britain/england-latest-free.shp.zip,gb,Great Britain,England,en
+http://download.geofabrik.de/europe/azores-latest-free.shp.zip,aa,Portugal,Azores,pt
+http://download.geofabrik.de/europe/faroe-islands-latest-free.shp.zip,fi,Denmark,Faroe Islands,dk
+http://download.geofabrik.de/europe/isle-of-man-latest-free.shp.zip,im,Great Britain,Isle of Man,gb

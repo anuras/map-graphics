@@ -1,0 +1,5 @@
+geofabrik_file,country_code,country_name,state_name,state_code
+http://download.geofabrik.de/europe/great-britain/england-latest-free.shp.zip,gb,Great-Britain,England,en
+http://download.geofabrik.de/europe/great-britain/scotland-latest-free.shp.zip,gb,Great-Britain,Scotland,sc
+http://download.geofabrik.de/europe/great-britain/wales-latest-free.shp.zip,gb,Great-Britain,Wales,wa
+http://download.geofabrik.de/europe/isle-of-man-latest-free.shp.zip,gb,Great-Britain,Isle-of-Man,im

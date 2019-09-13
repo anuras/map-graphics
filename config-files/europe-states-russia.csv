@@ -1,0 +1,10 @@
+geofabrik_file,country_code,country_name,state_name,state_code
+http://download.geofabrik.de/russia/central-fed-district-latest-free.shp.zip,ru,Russia,Central,ce
+http://download.geofabrik.de/russia/far-eastern-fed-district-latest-free.shp.zip,ru,Russia,Far-Eastern,fe
+http://download.geofabrik.de/russia/kaliningrad-latest-free.shp.zip,ru,Russia,Kaliningrad,ka
+http://download.geofabrik.de/russia/north-caucasus-fed-district-latest-free.shp.zip,ru,Russia,North-Caucasus,nc
+http://download.geofabrik.de/russia/northwestern-fed-district-latest-free.shp.zip,ru,Russia,Northwestern,nw
+http://download.geofabrik.de/russia/siberian-fed-district-latest-free.shp.zip,ru,Russia,Siberian,si
+http://download.geofabrik.de/russia/south-fed-district-latest-free.shp.zip,ru,Russia,South-Fed,sf
+http://download.geofabrik.de/russia/ural-fed-district-latest-free.shp.zip,ru,Russia,Ural,ur
+http://download.geofabrik.de/russia/volga-fed-district-latest-free.shp.zip,ru,Russia,Volga,vo

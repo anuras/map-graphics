@@ -1,0 +1,558 @@
+city,zoom,shift_right,shift_top
+Berlin,4.0,-0.1,0.1
+Paris,0.6,0.0,0.0
+Warszawa,2.5,-0.2,0.0
+London,3.75,0.05,0.1
+Copenhagen Municipality,1.5,0.0,0.1
+Christianshavn,1.0,0.0,0.0
+Nørrebro,1.0,0.0,0.0
+Frederikshavn,1.0,0.0,0.0
+Lund,1.0,0.0,0.0
+Umeå,1.0,0.0,0.0
+Stockholms län,1.0,0.0,0.0
+Gothenburg,1.0,0.0,0.0
+Uppsala,1.0,0.0,0.0
+Birmingham,2.0,0.0,0.0
+Sheffield,2.0,1.0,-0.1
+Abilene,1,0,0
+Akron,1,0,0
+Albany,1,0,0
+Schenectady,1,0,0
+Troy,1,0,0
+Albuquerque,1,0,0
+Alexandria,1,0,0
+Allentown,1,0,0
+Bethlehem,1,0,0
+Easton,1,0,0
+Altoona,1,0,0
+Amarillo,1,0,0
+Ames,1,0,0
+Anchorage,1,0,0
+Ann Arbor,1,0,0
+Anniston,1,0,0
+Oxford,1,0,0
+Jacksonville,1,0,0
+Appleton,1,0,0
+Asheville,1,0,0
+Athens,1,0,0
+Clarke County,1,0,0
+Atlanta,1,0,0
+Sandy Springs,1,0,0
+Roswell,1,0,0
+Atlantic City,1,0,0
+Hammonton,1,0,0
+Auburn,1,0,0
+Opelika,1,0,0
+Augusta,1,0,0
+Richmond County,1,0,0
+Austin,1,0,0
+Round Rock,1,0,0
+Bakersfield,1,0,0
+Baltimore,1,0,0
+Columbia,1,0,0
+Towson,1,0,0
+Bangor,1,0,0
+Barnstable Town,1,0,0
+Baton Rouge,1,0,0
+Battle Creek,1,0,0
+Bay City,1,0,0
+Beaumont,1,0,0
+Port Arthur,1,0,0
+Beckley,1,0,0
+Bellingham,1,0,0
+Bend,1,0,0
+Redmond,1,0,0
+Billings,1,0,0
+Binghamton,1,0,0
+Birmingham,1,0,0
+Hoover,1,0,0
+Bismarck,1,0,0
+Blacksburg,1,0,0
+Christiansburg,1,0,0
+Radford,1,0,0
+Bloomington,1,0,0
+Bloomsburg,1,0,0
+Berwick,1,0,0
+Boise City,1,0,0
+Boston,1,0,0
+Cambridge,1,0,0
+Newton,1,0,0
+Boulder,1,0,0
+Bowling Green,1,0,0
+Bremerton,1,0,0
+Silverdale,1,0,0
+Bridgeport,1,0,0
+Stamford,1,0,0
+Norwalk,1,0,0
+Brownsville,1,0,0
+Harlingen,1,0,0
+Brunswick,1,0,0
+Buffalo,1,0,0
+Cheektowaga,1,0,0
+Niagara Falls,1,0,0
+Burlington,1,0,0
+South Burlington,1,0,0
+California,1,0,0
+Lexington Park,1,0,0
+Canton,1,0,0
+Massillon,1,0,0
+Cape Coral,1,0,0
+Fort Myers,1,0,0
+Cape Girardeau,1,0,0
+Carbondale,1,0,0
+Marion,1,0,0
+Carson City,1,0,0
+Casper,1,0,0
+Cedar Rapids,1,0,0
+Chambersburg,1,0,0
+Waynesboro,1,0,0
+Champaign,1,0,0
+Urbana,1,0,0
+Charleston,1,0,0
+North Charleston,1,0,0
+Charlotte,1,0,0
+Concord,1,0,0
+Gastonia,1,0,0
+Charlottesville,1,0,0
+Chattanooga,1,0,0
+Cheyenne,1,0,0
+Chicago,1,0,0
+Naperville,1,0,0
+Elgin,1,0,0
+Chico,1,0,0
+Cincinnati,1,0,0
+Clarksville,1,0,0
+Cleveland,1,0,0
+Elyria,1,0,0
+Coeur d'Alene,1,0,0
+College Station,1,0,0
+Bryan,1,0,0
+Colorado Springs,1,0,0
+Columbus,1,0,0
+Corpus Christi,1,0,0
+Corvallis,1,0,0
+Crestview,1,0,0
+Fort Walton Beach,1,0,0
+Destin,1,0,0
+Cumberland,1,0,0
+Dallas,1,0,0
+Fort Worth,1,0,0
+Arlington,1,0,0
+Dalton,1,0,0
+Danville,1,0,0
+Daphne,1,0,0
+Fairhope,1,0,0
+Foley,1,0,0
+Davenport,1,0,0
+Moline,1,0,0
+Rock Island,1,0,0
+Dayton,1,0,0
+Decatur,1,0,0
+Deltona,1,0,0
+Daytona Beach,1,0,0
+Ormond Beach,1,0,0
+Denver,1,0,0
+Aurora,1,0,0
+Lakewood,1,0,0
+Des Moines,1,0,0
+West Des Moines,1,0,0
+Detroit,1,0,0
+Warren,1,0,0
+Dearborn,1,0,0
+Dothan,1,0,0
+Dover,1,0,0
+Dubuque,1,0,0
+Duluth,1,0,0
+Durham,1,0,0
+Chapel Hill,1,0,0
+East Stroudsburg,1,0,0
+Eau Claire,1,0,0
+El Centro,1,0,0
+Elizabethtown,1,0,0
+Fort Knox,1,0,0
+Elkhart,1,0,0
+Goshen,1,0,0
+Elmira,1,0,0
+El Paso,1,0,0
+Enid,1,0,0
+Erie,1,0,0
+Eugene,1,0,0
+Evansville,1,0,0
+Fairbanks,1,0,0
+Fargo,1,0,0
+Farmington,1,0,0
+Fayetteville,1,0,0
+Springdale,1,0,0
+Rogers,1,0,0
+Flagstaff,1,0,0
+Flint,1,0,0
+Florence,1,0,0
+Muscle Shoals,1,0,0
+Fond du Lac,1,0,0
+Fort Collins,1,0,0
+Fort Smith,1,0,0
+Fort Wayne,1,0,0
+Fresno,1,0,0
+Gadsden,1,0,0
+Gainesville,1,0,0
+Gettysburg,1,0,0
+Glens Falls,1,0,0
+Goldsboro,1,0,0
+Grand Forks,1,0,0
+Grand Island,1,0,0
+Grand Junction,1,0,0
+Grand Rapids,1,0,0
+Wyoming,1,0,0
+Grants Pass,1,0,0
+Great Falls,1,0,0
+Greeley,1,0,0
+Green Bay,1,0,0
+Greensboro,1,0,0
+High Point,1,0,0
+Greenville,1,0,0
+Anderson,1,0,0
+Mauldin,1,0,0
+Gulfport,1,0,0
+Biloxi,1,0,0
+Pascagoula,1,0,0
+Hagerstown,1,0,0
+Martinsburg,1,0,0
+Hammond,1,0,0
+Hanford,1,0,0
+Corcoran,1,0,0
+Harrisburg,1,0,0
+Carlisle,1,0,0
+Harrisonburg,1,0,0
+Hartford,1,0,0
+West Hartford,1,0,0
+East Hartford,1,0,0
+Hattiesburg,1,0,0
+Hickory,1,0,0
+Lenoir,1,0,0
+Morganton,1,0,0
+Hilton Head Island,1,0,0
+Bluffton,1,0,0
+Beaufort,1,0,0
+Hinesville,1,0,0
+Homosassa Springs,1,0,0
+Hot Springs,1,0,0
+Houma,1,0,0
+Thibodaux,1,0,0
+Houston,1,0,0
+The Woodlands,1,0,0
+Sugar Land,1,0,0
+Huntington,1,0,0
+Ashland,1,0,0
+Huntsville,1,0,0
+Idaho Falls,1,0,0
+Indianapolis,1,0,0
+Carmel,1,0,0
+Iowa City,1,0,0
+Ithaca,1,0,0
+Jackson,1,0,0
+Janesville,1,0,0
+Beloit,1,0,0
+Jefferson City,1,0,0
+Johnson City,1,0,0
+Johnstown,1,0,0
+Jonesboro,1,0,0
+Joplin,1,0,0
+Kahului,1,0,0
+Wailuku,1,0,0
+Lahaina,1,0,0
+Kalamazoo,1,0,0
+Portage,1,0,0
+Kankakee,1,0,0
+Kansas City,1,0,0
+Kennewick,1,0,0
+Richland,1,0,0
+Killeen,1,0,0
+Temple,1,0,0
+Kingsport,1,0,0
+Bristol,1,0,0
+Kingston,1,0,0
+Knoxville,1,0,0
+Kokomo,1,0,0
+La Crosse,1,0,0
+Onalaska,1,0,0
+Lafayette,1,0,0
+West Lafayette,1,0,0
+Lake Charles,1,0,0
+Lake Havasu City,1,0,0
+Kingman,1,0,0
+Lakeland,1,0,0
+Winter Haven,1,0,0
+Lancaster,1,0,0
+Lansing,1,0,0
+East Lansing,1,0,0
+Laredo,1,0,0
+Las Cruces,1,0,0
+Las Vegas,1,0,0
+Henderson,1,0,0
+Paradise,1,0,0
+Lawrence,1,0,0
+Lawton,1,0,0
+Lebanon,1,0,0
+Lewiston,1,0,0
+Lexington,1,0,0
+Fayette,1,0,0
+Lima,1,0,0
+Lincoln,1,0,0
+Little Rock,1,0,0
+North Little Rock,1,0,0
+Conway,1,0,0
+Logan,1,0,0
+Longview,1,0,0
+Los Angeles,1,0,0
+Long Beach,1,0,0
+Anaheim,1,0,0
+Louisville/Jefferson County,1,0,0
+Lubbock,1,0,0
+Lynchburg,1,0,0
+Macon,1,0,0
+Bibb County,1,0,0
+Madera,1,0,0
+Madison,1,0,0
+Manchester,1,0,0
+Nashua,1,0,0
+Manhattan,1,0,0
+Mankato,1,0,0
+North Mankato,1,0,0
+Mansfield,1,0,0
+McAllen,1,0,0
+Edinburg,1,0,0
+Mission,1,0,0
+Medford,1,0,0
+Memphis,1,0,0
+Merced,1,0,0
+Miami,1,0,0
+Fort Lauderdale,1,0,0
+West Palm Beach,1,0,0
+Michigan City,1,0,0
+La Porte,1,0,0
+Midland,1,0,0
+Milwaukee,1,0,0
+Waukesha,1,0,0
+West Allis,1,0,0
+Minneapolis,1,0,0
+St. Paul,1,0,0
+Missoula,1,0,0
+Mobile,1,0,0
+Modesto,1,0,0
+Monroe,1,0,0
+Montgomery,1,0,0
+Morgantown,1,0,0
+Morristown,1,0,0
+Mount Vernon,1,0,0
+Anacortes,1,0,0
+Muncie,1,0,0
+Muskegon,1,0,0
+Myrtle Beach,1,0,0
+North Myrtle Beach,1,0,0
+Napa,1,0,0
+Naples,1,0,0
+Immokalee,1,0,0
+Marco Island,1,0,0
+Nashville,1,0,0
+Davidson,1,0,0
+Murfreesboro,1,0,0
+Franklin,1,0,0
+New Bern,1,0,0
+New Haven,1,0,0
+Milford,1,0,0
+New Orleans,1,0,0
+Metairie,1,0,0
+New York,1,0,0
+Newark,1,0,0
+Jersey City,1,0,0
+Niles,1,0,0
+Benton Harbor,1,0,0
+North Port,1,0,0
+Sarasota,1,0,0
+Bradenton,1,0,0
+Norwich,1,0,0
+New London,1,0,0
+Ocala,1,0,0
+Ocean City,1,0,0
+Odessa,1,0,0
+Ogden,1,0,0
+Clearfield,1,0,0
+Oklahoma City,1,0,0
+Olympia,1,0,0
+Tumwater,1,0,0
+Omaha,1,0,0
+Council Bluffs,1,0,0
+Orlando,1,0,0
+Kissimmee,1,0,0
+Sanford,1,0,0
+Oshkosh,1,0,0
+Neenah,1,0,0
+Owensboro,1,0,0
+Oxnard,1,0,0
+Thousand Oaks,1,0,0
+Ventura,1,0,0
+Palm Bay,1,0,0
+Melbourne,1,0,0
+Titusville,1,0,0
+Panama City,1,0,0
+Parkersburg,1,0,0
+Vienna,1,0,0
+Pensacola,1,0,0
+Ferry Pass,1,0,0
+Brent,1,0,0
+Peoria,1,0,0
+Philadelphia,1,0,0
+Camden,1,0,0
+Wilmington,1,0,0
+Phoenix,1,0,0
+Mesa,1,0,0
+Scottsdale,1,0,0
+Pine Bluff,1,0,0
+Pittsburgh,1,0,0
+Pittsfield,1,0,0
+Pocatello,1,0,0
+Portland,1,0,0
+South Portland,1,0,0
+Vancouver,1,0,0
+Hillsboro,1,0,0
+Port St. Lucie,1,0,0
+Prescott,1,0,0
+Providence,1,0,0
+Warwick,1,0,0
+Provo,1,0,0
+Orem,1,0,0
+Pueblo,1,0,0
+Punta Gorda,1,0,0
+Racine,1,0,0
+Raleigh,1,0,0
+Rapid City,1,0,0
+Reading,1,0,0
+Redding,1,0,0
+Reno,1,0,0
+Richmond,1,0,0
+Riverside,1,0,0
+San Bernardino,1,0,0
+Ontario,1,0,0
+Roanoke,1,0,0
+Rochester,1,0,0
+Rockford,1,0,0
+Rocky Mount,1,0,0
+Rome,1,0,0
+Sacramento,1,0,0
+Roseville,1,0,0
+Arden,1,0,0
+Arcade,1,0,0
+Saginaw,1,0,0
+St. Cloud,1,0,0
+St. George,1,0,0
+St. Joseph,1,0,0
+St. Louis,1,0,0
+Salem,1,0,0
+Salinas,1,0,0
+Salisbury,1,0,0
+Salt Lake City,1,0,0
+San Angelo,1,0,0
+San Antonio,1,0,0
+New Braunfels,1,0,0
+San Diego,1,0,0
+Carlsbad,1,0,0
+San Francisco,1,0,0
+Oakland,1,0,0
+Hayward,1,0,0
+San Jose,1,0,0
+Sunnyvale,1,0,0
+Santa Clara,1,0,0
+San Luis Obispo,1,0,0
+Paso Robles,1,0,0
+Arroyo Grande,1,0,0
+Santa Cruz,1,0,0
+Watsonville,1,0,0
+Santa Fe,1,0,0
+Santa Maria,1,0,0
+Santa Barbara,1,0,0
+Santa Rosa,1,0,0
+Savannah,1,0,0
+Scranton,1,0,0
+Wilkes,1,0,0
+Barre,1,0,0
+Hazleton,1,0,0
+Seattle,1,0,0
+Tacoma,1,0,0
+Bellevue,1,0,0
+Sebastian,1,0,0
+Vero Beach,1,0,0
+Sebring,1,0,0
+Sheboygan,1,0,0
+Sherman,1,0,0
+Denison,1,0,0
+Shreveport,1,0,0
+Bossier City,1,0,0
+Sierra Vista,1,0,0
+Douglas,1,0,0
+Sioux City,1,0,0
+Sioux Falls,1,0,0
+South Bend,1,0,0
+Mishawaka,1,0,0
+Spartanburg,1,0,0
+Spokane,1,0,0
+Spokane Valley,1,0,0
+Springfield,1,0,0
+State College,1,0,0
+Staunton,1,0,0
+Stockton,1,0,0
+Lodi,1,0,0
+Sumter,1,0,0
+Syracuse,1,0,0
+Tallahassee,1,0,0
+Tampa,1,0,0
+St. Petersburg,1,0,0
+Clearwater,1,0,0
+Terre Haute,1,0,0
+Texarkana,1,0,0
+The Villages,1,0,0
+Toledo,1,0,0
+Topeka,1,0,0
+Trenton,1,0,0
+Tucson,1,0,0
+Tulsa,1,0,0
+Tuscaloosa,1,0,0
+Tyler,1,0,0
+Urban Honolulu,1,0,0
+Utica,1,0,0
+Valdosta,1,0,0
+Vallejo,1,0,0
+Fairfield,1,0,0
+Victoria,1,0,0
+Vineland,1,0,0
+Bridgeton,1,0,0
+Virginia Beach,1,0,0
+Norfolk,1,0,0
+Newport News,1,0,0
+Visalia,1,0,0
+Porterville,1,0,0
+Waco,1,0,0
+Walla Walla,1,0,0
+Warner Robins,1,0,0
+Washington,1,0,0
+Waterloo,1,0,0
+Cedar Falls,1,0,0
+Watertown,1,0,0
+Fort Drum,1,0,0
+Wausau,1,0,0
+Weirton,1,0,0
+Steubenville,1,0,0
+Wenatchee,1,0,0
+Wheeling,1,0,0
+Wichita,1,0,0
+Wichita Falls,1,0,0
+Williamsport,1,0,0
+Winchester,1,0,0
+Winston,1,0,0
+Worcester,1,0,0
+Yakima,1,0,0
+York,1,0,0
+Hanover,1,0,0
+Youngstown,1,0,0
+Boardman,1,0,0
+Yuba City,1,0,0
+Yuma,1,0,0

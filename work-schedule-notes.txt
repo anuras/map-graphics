@@ -1,0 +1,25 @@
+2019-03-09:
+- work in progress: bc_wip.tsv file (35 courtenay)
+- add zeros in front of single digits
+- look at all maps before adjusting coordinates
+2019-03-11:
+- done bc: bc.tsv
+- done ab: ab.tsv
+- done mb: mb.tsv
+- done nb: nb.tsv
+- done nl: nl.tsv
+- done ns: ns.tsv
+- done sk: sk.tsv
+- work in progress: qb.tsv
+to do:
+- fix titles (break if too long: 23qb)
+2019-03-13
+- done qb: qb.tsv
+to do:
+- change scales (road thickness) for small cities
+2019-04-15
+progress on: 57 Pickering
+2019-04-19
+- done on: on.tsv
+to do:
+map cropping flag?

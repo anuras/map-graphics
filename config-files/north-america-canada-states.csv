@@ -1,0 +1,14 @@
+geofabrik_file,country_code,country_name,state_name,state_code
+http://download.geofabrik.de/north-america/canada/alberta-latest-free.shp.zip,ca,Canada,Alberta,ab
+http://download.geofabrik.de/north-america/canada/manitoba-latest-free.shp.zip,ca,Canada,Manitoba,mb
+http://download.geofabrik.de/north-america/canada/new-brunswick-latest-free.shp.zip,ca,Canada,New-Brunswick,nb
+http://download.geofabrik.de/north-america/canada/newfoundland-and-labrador-latest-free.shp.zip,ca,Canada,Newfoundland-and-Labrador,nl
+http://download.geofabrik.de/north-america/canada/nova-scotia-latest-free.shp.zip,ca,Canada,Nova-Scotia,ns
+http://download.geofabrik.de/north-america/canada/saskatchewan-latest-free.shp.zip,ca,Canada,Saskatchewan,sk
+http://download.geofabrik.de/north-america/canada/yukon-latest-free.shp.zip,ca,Canada,Yukon,yt
+http://download.geofabrik.de/north-america/canada/quebec-latest-free.shp.zip,ca,Canada,Quebec,qb
+http://download.geofabrik.de/north-america/canada/british-columbia-latest-free.shp.zip,ca,Canada,British-Columbia,bc
+http://download.geofabrik.de/north-america/canada/northwest-territories-latest-free.shp.zip,ca,Canada,Northwest-Territories,nt
+http://download.geofabrik.de/north-america/canada/nunavut-latest-free.shp.zip,ca,Canada,Nunavut,nu
+http://download.geofabrik.de/north-america/canada/prince-edward-island-latest-free.shp.zip,ca,Canada,Prince-Edward-Island,pe
+http://download.geofabrik.de/north-america/canada/ontario-latest-free.shp.zip,ca,Canada,Ontario,on
