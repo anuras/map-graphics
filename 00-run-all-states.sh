@@ -22,7 +22,7 @@ do
    echo $geofabrik_file $country_code $country_name \"$state_name\" $state_code
    # ./process-state-file.sh $geofabrik_file $country_code $country_name \"$state_name\" $state_code
    # ./01-download-files-states.sh $geofabrik_file $country_code $state_code
-   #./02-extract-state-city-boundaries.sh $geofabrik_file $country_code "$state_name" $state_code
+   # ./02-extract-state-city-boundaries.sh $geofabrik_file $country_code "$state_name" $state_code
    # ./03-create-templates-states.sh $geofabrik_file $country_code $state_code 1350 1050 $country_code_2 $state_code_2 $country_code_3 $state_code_3
    # ./04-print-states.sh $geofabrik_file $country_code $state_code 1350 1050
    # ./03-create-templates-states.sh $geofabrik_file $country_code $state_code 2700 1050 $country_code_2 $state_code_2 $country_code_3 $state_code_3
