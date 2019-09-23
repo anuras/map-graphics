@@ -11,3 +11,9 @@ gsutil -m cp -r -d $download_dir $upload_dir
 # do
 #     gsutil cp $f $upload_dir
 # done
+
+# city boundary data
+city_dir="libs/city-boundary-files"
+upload_city_dir="gs://carto-storage/libs/city-boundary-files"
+
+gsutil -m cp -r $city_dir $upload_city_dir
