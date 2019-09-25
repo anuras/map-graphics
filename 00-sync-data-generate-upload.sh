@@ -9,6 +9,8 @@ localwater="input/water-polygons"
 # 0. take in config params
 country="ca/bc"
 version="v1"
+country=$1
+version=$2
 
 # 1. sync city data
 gscityurl="gs://carto-storage/libs/city-boundary-files/"$country
@@ -40,6 +42,10 @@ docker run -ti -v $this_dir/input/:/wdir/input/:rw -v $this_dir/output/:/wdir/ou
 cp scripts/*.* ./
 /bin/bash docker-print-maps.sh lt v1
 /bin/bash docker-print-maps.sh $country $version
+docker run -v $this_dir/input/:/wdir/input/:rw -v $this_dir/output/:/wdir/output/:rw -v $this_dir/libs/:/wdir/libs/:rw -v $this_dir/scripts/:/wdir/scripts/ -v $this_dir/libs/resources/:/wdir/resources/ -w /wdir/ anuras/mapnik /bin/bash docker-print-maps.sh $country $version
+sudo docker run -v $this_dir/input/:/wdir/input/:rw -v $this_dir/output/:/wdir/output/:rw -v $this_dir/libs/:/wdir/libs/:rw -v $this_dir/scripts/:/wdir/scripts/ -v $this_dir/libs/resources/:/wdir/resources/ -w /wdir/ anuras/mapnik cp {scripts/*.py,scripts/*.sh} ./ && docker-print-maps.sh $country $version
+sudo docker run -v $this_dir/input/:/wdir/input/:rw -v $this_dir/output/:/wdir/output/:rw -v $this_dir/libs/:/wdir/libs/:rw -v $this_dir/scripts/:/wdir/scripts/ -v $this_dir/libs/resources/:/wdir/resources/ -w /wdir/ anuras/mapnik-templater $country $version
+
 
 # 5. upload generated maps
 output_directory=$this_dir/output/$country_code/$version/

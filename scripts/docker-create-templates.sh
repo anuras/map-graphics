@@ -9,6 +9,7 @@ if [ -z "$country_code" ] && [ -z "$version" ]; then
 fi
 
 this_dir=$(pwd)
+# cp {scripts/*.py,scripts/*.sh} ./
 shape_dir=$this_dir"/input/geofiles/"$country_code
 water_dir=$this_dir"/input/water-polygons/water-polygons-split-4326"
 input_template=$this_dir/libs/xml_templates/render_template_w_sizing.xml
@@ -16,7 +17,6 @@ color_schemas=$this_dir/libs/color-schemas/$version/color-schemas.csv
 size_file=$this_dir/libs/sizes/$version/sizes.csv
 get_sizes=$(tail $size_file -n +2)
 template_dir=$this_dir/input/templates/$country_code/$version/
-city_boundary_file=$this_dir/libs/city-boundary-files/$country_code/$version/"cities.tsv"
 
 for sizing in $get_sizes
 do

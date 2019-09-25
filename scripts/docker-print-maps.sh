@@ -9,6 +9,7 @@ if [ -z "$country_code" ] && [ -z "$version" ]; then
 fi
 
 this_dir=$(pwd)
+# cp {scripts/*.py,scripts/*.sh} ./
 color_schemas=$this_dir/libs/color-schemas/$version/color-schemas.csv
 size_file=$this_dir/libs/sizes/$version/sizes.csv
 get_sizes=$(tail $size_file -n +2)
