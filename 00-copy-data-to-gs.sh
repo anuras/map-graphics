@@ -18,9 +18,29 @@ upload_city_dir="gs://carto-storage/libs/city-boundary-files"
 
 gsutil -m cp -r $city_dir $upload_city_dir
 
+
+#libs
+
+lib_dir="libs/*"
+upload_lib_dir="gs://carto-storage/libs"
+
+gsutil -m cp -r $lib_dir $upload_lib_dir
+
 # sizes
 
 sz_dir="libs/sizes"
 upload_sz_dir="gs://carto-storage/libs/sizes"
+
+gsutil -m cp -r $sz_dir $upload_sz_dir
+
+# colors
+
+sz_dir="libs/color-schemas"
+upload_sz_dir="gs://carto-storage/libs/color-schemas"
+
+gsutil -m cp -r $sz_dir $upload_sz_dir
+
+sz_dir="libs/color-schemas"
+upload_sz_dir="gs://carto-storage/libs/color-schemas"
 
 gsutil -m cp -r $sz_dir $upload_sz_dir

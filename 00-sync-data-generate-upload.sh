@@ -14,13 +14,11 @@ country=$1
 version=$2
 
 # 0b sync libs
-gssizeurl="gs://carto-storage/libs/sizes"
-localsizedir="libs/sizes"
-gsutil -m rsync -d -r $gssizeurl $localsizedir
-gscolurl="gs://carto-storage/libs/color-schemas"
-localcoldir="libs/color-schemas"
-gsutil -m rsync -d -r $gscolurl $localcoldir
 
+gsliburl="gs://carto-storage/libs"
+locallibdir="libs"
+mkdir -p $locallibdir
+gsutil -m rsync -d -r $gsliburl $locallibdir
 
 # 1. sync city data
 gscityurl="gs://carto-storage/libs/city-boundary-files/"$country
