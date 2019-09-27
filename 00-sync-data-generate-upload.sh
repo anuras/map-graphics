@@ -6,12 +6,17 @@ localinput="input/geofiles"
 gswaterurl="gs://carto-storage/downloads/water-polygons"
 localwater="input/water-polygons"
 
-# 0. take in config params
+# 0a take in config params
 country="lt"
 country="ca/bc"
 version="v1"
 country=$1
 version=$2
+
+# 0b sync libs
+gssizeurl="gs://carto-storage/libs/sizes"
+localsizedir="libs/sizes"
+gsutil -m rsync -d -r $gssizeurl $localsizedir
 
 # 1. sync city data
 gscityurl="gs://carto-storage/libs/city-boundary-files/"$country
