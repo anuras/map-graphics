@@ -110,3 +110,5 @@ xml_templates/generated_templates/
 input/
 libs/
 output/
+
+credentials.json
