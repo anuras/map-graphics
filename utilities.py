@@ -95,7 +95,7 @@ cwd = os.getcwd()
 FONT = cwd + '/resources/DejaVuSans-ExtraLight.ttf'
 
 
-def add_label_internal(png_path, label, output_file, text_color_hex, fade = True, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.05, font_pad_part = 0.0125, font = FONT):
+def add_label_internal(png_path, label, output_file, text_color_hex, fade = True, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.05, font_pad_part = 0.025, font = FONT):
     im = Image.open(png_path)
     px = im.load()
     if fade:
@@ -120,7 +120,7 @@ def add_label_internal(png_path, label, output_file, text_color_hex, fade = True
     txt.close()
     return out
 
-def add_label_background(png_path, label, output_file, text_color_hex, background_color_hex, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.05, font_pad_part = 0.0125, font = FONT):
+def add_label_background(png_path, label, output_file, text_color_hex, background_color_hex, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.05, font_pad_part = 0.025, font = FONT):
     im = Image.open(png_path)
     px = im.load()
 
@@ -132,10 +132,12 @@ def add_label_background(png_path, label, output_file, text_color_hex, backgroun
     draw = ImageDraw.Draw(txt)
     current_h = im.size[1] - ((font_size + font_pad))
     w, h = fnt.getsize(label)
-    h_correction = int(h * 0.225)
+    # h_correction = 0#int(h * 0.25)
     # draw.rectangle(((im.size[0] - w) / 2, current_h + h_correction, (im.size[0] + w) / 2, current_h + (h * 1.05) + h_correction), fill = background_color_hex) # temporary fix
     rectangle_size = (w, int(h * 1.05))
-    rectangle_offset = ((im.size[0] - w) / 2, current_h + h_correction)
+    rectangle_h_pad_on_font = int((rectangle_size[2] - font_size)/2)
+    rectangle_h_offset = im.size[1] - (font_size + font_pad + rectangle_h_pad_on_font)
+    rectangle_offset = ((im.size[0] - w) / 2, rectangle_h_offset)
     rectangle = Image.new('RGBA', rectangle_size)
     rectdraw = ImageDraw.Draw(rectangle)
     backrgb = ImageColor.getrgb(background_color_hex)
@@ -148,7 +150,7 @@ def add_label_background(png_path, label, output_file, text_color_hex, backgroun
     # txt.close()
     return out
 
-def add_label_outline(png_path, label, output_file, text_color_hex, background_color_hex, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.05, font_pad_part = 0.0125, font = FONT):
+def add_label_outline(png_path, label, output_file, text_color_hex, background_color_hex, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.05, font_pad_part = 0.025, font = FONT):
     im = Image.open(png_path)
     px = im.load()
 
@@ -173,7 +175,7 @@ def add_label_outline(png_path, label, output_file, text_color_hex, background_c
     # txt.close()
     return out
 
-def add_label(png_path, label, output_file, text_color_hex, background_color_hex, padding = 20, fade = True, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.06, font_pad_part = 0.0125, font = FONT):
+def add_label(png_path, label, output_file, text_color_hex, background_color_hex, padding = 20, fade = True, output_file_type = "PNG", faded_part = 0.0625, font_part = 0.06, font_pad_part = 0.025, font = FONT):
     label = label.upper()
     # out = add_label_outline(png_path, label, output_file, text_color_hex, background_color_hex, output_file_type, faded_part, font_part, font_pad_part, font)
     out = add_label_background(png_path, label, output_file, text_color_hex, background_color_hex, output_file_type, faded_part, font_part, font_pad_part, font)

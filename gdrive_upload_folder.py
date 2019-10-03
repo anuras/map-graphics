@@ -75,7 +75,8 @@ def get_folder_id(drive, parent_folder_id, folder_name):
         if file1['title'] == folder_name:
             print('title: %s, id: %s' % (file1['title'], file1['id']))
             return file1['id']
-
+    # for file1 in file_list:
+    #     print('title: %s, id: %s' % (file1['title'], file1['id']))
 
 def create_folder(drive, folder_name, parent_folder_id):
     """ 
@@ -94,8 +95,8 @@ def create_folder(drive, folder_name, parent_folder_id):
     folder.Upload()
 
     # Return folder informations
-    print('title: %s, id: %s' % (folder['title'], folder['id])
-    return folder[(id']
+    print('title: %s, id: %s' % (folder['title'], folder['id'])
+    return folder['id']
 
 
 def upload_files(drive, folder_id, src_folder_name):

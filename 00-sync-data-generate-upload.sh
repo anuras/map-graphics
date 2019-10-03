@@ -12,13 +12,17 @@ country="ca/bc"
 version="v1"
 country=$1
 version=$2
+sync="off"
 
 # 0b sync libs
 
 gsliburl="gs://carto-storage/libs"
 locallibdir="libs"
 mkdir -p $locallibdir
-gsutil -m rsync -d -r $gsliburl $locallibdir
+if [[ $sync == "on" ]]
+then
+    gsutil -m rsync -d -r $gsliburl $locallibdir
+fi
 
 # 1. sync city data
 gscityurl="gs://carto-storage/libs/city-boundary-files/"$country
@@ -30,12 +34,18 @@ gsutil -m rsync -d -r $gscityurl $localcitydir
 gscountryurl=$gsshpurl/$country
 localcntrdir=$localinput/$country
 mkdir -p $localcntrdir
-gsutil -m rsync -d -r $gscountryurl $localcntrdir
-unzip $localcntrdir/* -d $localcntrdir/
+if [[ $sync == "on" ]]
+then
+    gsutil -m rsync -d -r $gscountryurl $localcntrdir
+    unzip $localcntrdir/* -d $localcntrdir/
+fi
 
 # 2b sync water polygon files
 mkdir $localwater
-gsutil -m rsync -d -r $gswaterurl $localwater
+if [[ $sync == "on" ]]
+then
+    gsutil -m rsync -d -r $gswaterurl $localwater
+fi
 
 # 3. generate templates
 this_dir=$(pwd)
@@ -60,4 +70,7 @@ docker run -v $this_dir/input/:/wdir/input/:rw -v $this_dir/output/:/wdir/output
 # 5. upload generated maps
 output_directory=$this_dir/output/$country/$version
 gs_output_dir="gs://carto-storage/output/"$country/$version/
-gsutil -m cp -r $output_directory/* $gs_output_dir
+if [[ $sync == "on" ]]
+then
+    gsutil -m cp -r $output_directory/* $gs_output_dir
+fi
