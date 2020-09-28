@@ -11,7 +11,7 @@ template_name="colored_template_"$map_width"_"$map_height".xml"
 color_schemas=$this_dir/color-schemas/staging-schemas2.csv
 # color_schemas=$this_dir/color-schemas/production-schemas.csv
 # color_schemas=$this_dir/color-schemas/$6
-output_directory=$this_dir/generated_maps/$country_code/$state_code/
+output_directory=$this_dir/output/$country_code/$state_code/
 city_boundary_dir=$this_dir/osmnames/city-boundary-files/$country_code/$state_code/
 city_boundary_file=$city_boundary_dir$state_code".tsv"
 

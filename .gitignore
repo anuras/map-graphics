@@ -110,6 +110,7 @@ xml_templates/generated_templates/
 input/
 libs/
 output/
+generated_maps/
 
 credentials.json
 token.pickle

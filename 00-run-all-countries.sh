@@ -13,13 +13,13 @@ do
    # ./process-country-file.sh $geofabrik_file $country_code $country_name
    echo $geofabrik_file $country_code
 
-   ./01-download-files-countries.sh $geofabrik_file $country_code
-   ./02-extract-country-city-boundaries.sh $geofabrik_file $country_code
+   # ./01-download-files-countries.sh $geofabrik_file $country_code
+   # ./02-extract-country-city-boundaries.sh $geofabrik_file $country_code
    # ./03-create-templates-countries.sh $geofabrik_file $country_code 1350 1050
    # ./04-print-countries.sh $geofabrik_file $country_code 1350 1050
    # ./03-create-templates-countries.sh $geofabrik_file $country_code 2700 1050
    # ./04-print-countries.sh $geofabrik_file $country_code 2700 1050
-   ./03-create-templates-countries.sh $geofabrik_file $country_code 3543 4724 $color_schemas
+   ./03-create-templates-countries.sh $geofabrik_file $country_code 3543 4724
    ./04-print-countries.sh $geofabrik_file $country_code 3543 4724 $color_schemas
    # ./03-create-templates-countries.sh $geofabrik_file $country_code 5906 8268
    # ./04-print-countries.sh $geofabrik_file $country_code 5906 8268
