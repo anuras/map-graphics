@@ -1,3 +1,5 @@
+Generate your own map paintings using public data.
+
 #### Quickrun
 
 > docker  run  -v `` `pwd` ``:`` `pwd` `` -w `` `pwd` `` -i -t  anuras/mapnik pwd
